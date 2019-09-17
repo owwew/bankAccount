@@ -1,0 +1,35 @@
+### ADMIN
+GET http://localhost:8080/accounts/all
+Content-Type: application/json
+
+### Account statement
+GET http://localhost:8080/accounts/Aminekasmi
+Content-Type: application/json
+
+### Deposit
+POST http://localhost:8080/accounts/deposit
+Content-Type: application/json
+
+{
+  "clientName": "Aminekasmi",
+  "amount": 1000
+}
+
+### Withdrawal
+POST http://localhost:8080/accounts/withdrawal
+Content-Type: application/json
+
+{
+  "clientName": "Aminekasmi",
+  "amount": 100
+}
+
+### History
+GET http://localhost:8080/history/Aminekasmi
+Content-Type: application/json
+
+
+
+
+
+###
